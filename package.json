@@ -50,7 +50,7 @@
     "build": "rm -rf dist && npm run test && tsc --outDir dist/"
   },
   "dependencies": {
-    "@twa-dev/types": "git@github.com:DmitryTrish/twa-types.git"
+    "@twa-dev/types": "github:DmitryTrish/twa-types#master"
   },
   "peerDependencies": {
     "react": "^18.3.1"
